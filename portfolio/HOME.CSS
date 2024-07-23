@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+header{
+    background-color: rgb(43, 40, 40);
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+    padding-bottom: 2%;
+    
+}
+.headercontent h1{
+    font-size: 2.7rem;
+}
+.profilepicture{
+    width: 123px;
+    height: 125px;
+    border-radius: 75%;
+    object-fit: cover;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+nav{
+    background-color: rgb(53, 49, 49);
+    color: black;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    padding: 12px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+    font-size: larger;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(254, 251, 251);
+}
+.sectioncontent{
+    background-color: rgb(243, 237, 248);
+    padding: 1.7rem;
+    margin: 2rem;
+    border-radius: 30px;
+    box-shadow: 0 0 8px;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+p{
+    font-size: x-large;
+}
+#skills ul li{
+    font-size:x-large ;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #222121; 
+}
+
+#toggleModeBtn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 18px 26px;
+    background-color: #3e3939;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: large;
+}
+
+#toggleModeBtn:hover {
+    background-color: #444;
+}
+
+.dark-mode #toggleModeBtn {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode #toggleModeBtn:hover {
+    background-color: #ddd;
+}
